@@ -16,3 +16,12 @@ resultado = texto.strip()
 print(texto.isupper())
 print(texto.islower())
 print(resultado)
+
+curso = "Python"
+version = "3"
+
+#Concatenar cadenas
+#salida = "Curso de %s %s" %(curso, version)
+#salida = "Curso de {} {}".format(curso,version)
+salida = "Curso de {a} {b}".format(a=curso,b=version)
+print(salida)
