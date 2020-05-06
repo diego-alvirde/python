@@ -25,6 +25,11 @@ class Perro(Animal,Mascota):
   def comun(self):
     print("Método de la clase Perro")
 
+  def dormir(self):
+    print("El perro esta durmiendo ",self.nombre)
+    Animal.dormir(self)
+    print("No molestar")
+
 class Gato(Animal):
   def ronroneo(self):
     print("Ronroneo")
@@ -33,3 +38,4 @@ perro = Perro("perro")
 perro.fecha_adopcion("Hoy")
 print(perro.fecha_de_adopcion)
 perro.comun()
+perro.dormir()
