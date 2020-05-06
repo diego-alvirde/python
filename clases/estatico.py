@@ -5,3 +5,5 @@ class Triangulo:
     return (base*altura) / 2
 
 print(Triangulo.area(10,10))
+
+  
