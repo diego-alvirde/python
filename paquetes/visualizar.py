@@ -1,0 +1,2 @@
+import documentacion
+help(documentacion)
